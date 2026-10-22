@@ -322,10 +322,11 @@ p {
 }
 
 .hero__lead {
-  max-width: 560px;
+  max-width: 626px;
   margin-top: 1.25rem;
   font-size: 1.075rem;
   color: var(--color-muted);
+  text-align: justify;
 }
 
 .hero__lead strong {
@@ -433,21 +434,22 @@ p {
 /* About */
 .about {
   display: flex;
-  gap: 3rem;
+  gap: 4rem;
 }
 
 .about__text {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  flex: 1 1 60%;
+  flex: 1 1 58%;
+  text-align: justify;
 }
 
 .about__facts {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  flex: 1 1 40%;
+  flex: 1 1 42%;
   margin: 0;
   padding: 1.5rem;
   border: 1px solid var(--color-border);
@@ -584,6 +586,7 @@ p {
   margin-top: 0.75rem;
   font-style: italic;
   color: var(--color-muted);
+  text-align: justify;
 }
 
 .job__duties {
@@ -606,6 +609,9 @@ p {
   box-sizing: border-box;
   width: calc(100% / 2);
   padding: 0.75rem;
+}
+.w-full {
+  width: 100%;
 }
 
 .case-card {
@@ -646,6 +652,7 @@ p {
 .case-card__step-text {
   margin: 0.25rem 0 1rem;
   color: var(--color-muted);
+  text-align: justify;
 }
 
 .case-card__step-text:last-child {

@@ -126,6 +126,10 @@ body.cv-page {
   color: var(--color-navy);
 }
 
+.cv__summary {
+  text-align: justify;
+}
+
 .cv__kpis {
   display: flex;
   gap: 0.75rem;
@@ -180,6 +184,7 @@ body.cv-page {
 .cv__list {
   margin: 0.3rem 0 0;
   padding-left: 1.1rem;
+  text-align: justify;
 }
 
 .cv-job__duties li + li,
